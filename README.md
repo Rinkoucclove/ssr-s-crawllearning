@@ -166,30 +166,8 @@ TITLE_SELECTORS = ['h1', '.article-title', '.title', 'h2']
 ## 联系方式
 
 如有问题或建议，请通过 GitHub Issues 联系。
+{\small 这种黑历史最好没人看吧}
 ---
-
-## 📢 最新修复（2024-03-09）
-
-### ✅ 已修复：应用启动错误
-
-**问题描述**：程序启动时出现 `execute command error: can only join an iterable` 错误
-
-**根本原因**：lxml 解析器配置问题，导致 BeautifulSoup 无法解析 HTML 页面
-
-**解决方案**：
-- 更换为 Python 标准库的 `html.parser` 解析器
-- 简化依赖配置，移除 lxml 硬依赖
-- 保留所有类型检查防护作为额外安全措施
-
-**修复效果**：
-- ✅ 程序可以正常启动
-- ✅ 所有功能正常工作
-- ✅ 依赖更简单，安装更容易
-- ✅ 稳定性显著提升
-
-**详细报告**：[FINAL_FIX_REPORT.md](FINAL_FIX_REPORT.md)
-
-**测试验证**：所有测试通过（通过率 100%）
 
 ---
 
