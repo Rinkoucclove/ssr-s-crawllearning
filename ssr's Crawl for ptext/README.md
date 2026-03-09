@@ -2,8 +2,6 @@
 
 一个结构化、模块化的新闻网站爬虫工具，专门用于爬取南京大学马克思主义社会理论研究中心（实践与文本）网站的新闻内容。
 
-> **最新更新**：已修复数据类型问题，程序现在完全稳定运行。详见 [FIX_SUMMARY.md](FIX_SUMMARY.md)。
-
 ## 项目结构
 
 ```
@@ -24,13 +22,9 @@ news_crawler/
     └── data_manager.py         # 数据管理器
 
 main.py                         # 入口文件
-requirements.txt                # 依赖列表
 README.md                       # 项目说明（本文档）
 DEPLOYMENT.md                   # 部署指南
 QUICKSTART.md                   # 快速开始
-REFACTORING_SUMMARY.md          # 重构总结
-CHANGELOG.md                    # 变更日志
-FIX_SUMMARY.md                  # 修复说明
 .example.py                     # 使用示例
 ```
 
