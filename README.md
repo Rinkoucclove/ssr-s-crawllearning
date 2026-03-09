@@ -166,7 +166,7 @@ TITLE_SELECTORS = ['h1', '.article-title', '.title', 'h2']
 ## 联系方式
 
 如有问题或建议，请通过 GitHub Issues 联系。
-{\small 这种黑历史最好没人看吧}
+
 ---
 
 ---
